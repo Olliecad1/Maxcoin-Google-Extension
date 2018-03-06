@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Maxcoin Price Movement</title>
+  <style type="text/css">
+    body {
+      margin: 2px;
+      white-space: nowrap;
+    }
+
+    h1 {
+      font-size: 15px;
+    }
+
+    img {
+      text-align: center;
+    }
+    #topbar{
+      width: 100%;
+    }
+    .marquee {
+      /* height: 500px;
+        width: 500px; */
+      overflow: hidden;
+      position: relative;
+      animation: marquee 10s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% {
+        left: 0;
+      }
+      100% {
+        left: -100%;
+      }
+    }
+
+    #container {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="max.js"></script>
+</head>
+
+
+<body id="#maxBody">
+  <h1 class="marquee" id="topbar"></h1>
+  <h1 class="marquee" id="topbar"></h1>
+
+  <div style="text-align:center" id="image">
+
+
+  </div>
+  <p style="text-align:center" id="bottombar">Made by Ollie || powered by CoinMarketCapAPI</p>
+</body>
+
+</html>

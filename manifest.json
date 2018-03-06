@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "MAXCOIN",
+  "icons":
+  {
+     "128": "Images/icon.png",
+     "16": "Images/icon.png",
+     "48": "Images/icon.png"
+  },
+  "description": "A ticker that instantly without any confusion, tell you the market movement of maxcoin crpytocurrency",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "Images/icon.png",
+    "default_popup": "max.html",
+    "default_title": "Check me out!"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
