@@ -13,3 +13,8 @@ Maxcoin Price Google Extension
 4. Load unpacked extensions...
 5. Select the HODL folder
 6. Press OK
+
+
+## API Reference
+
+The extension makes use of the CoinMarketCap.com API to pull a JSON file data of MAX.
