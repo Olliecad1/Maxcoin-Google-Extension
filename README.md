@@ -8,11 +8,12 @@ Maxcoin Price Google Extension
 ## Installation
 
 1. Download Zip from github repo
-2. Navigate to Chrome Extensions Tab
-3. Checkbox the Developer Mode
-4. Load unpacked extensions...
-5. Select the HODL folder
-6. Press OK
+2. Unzip the Zip File
+3. Navigate to Chrome Extensions Tab
+4. Checkbox the Developer Mode
+5. Load unpacked extensions...
+6. Select the HODL folder
+7. Press OK
 
 
 ## API Reference
