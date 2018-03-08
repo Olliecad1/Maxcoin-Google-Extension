@@ -15,13 +15,13 @@ $(function () {
       $('#topbar').prepend(`Price: ${price} | Hourly: ${hourChanges}% | 24H: ${dayChanges}% | Weekly: ${weekChanges}%`);
 
       if (dayChanges > .50) {
-        $('#image').append(`<img border=10 style="width:300px; height:168px; border-color:green;" src="Images/max-up.gif"></img>`);
+        $('#image').append(`<img border="10" style="width:300px; height:168px; border-color:green;" src="Images/max-up.gif"></img>`);
       }
       else if (dayChanges < -.50) {
-        $('#image').append(`<img border=10 style="width: 300px; height=168px; border-color: red;" src="Images/max-down.gif"></img>`);
+        $('#image').append(`<img border="10" style="width: 300px; height=168px; border-color: red;" src="Images/max-down.gif"></img>`);
       }
       else {
-        $('#image').append(`<img border=10 style="width:300px; height:168px;" border-color: black;" src="Images/max-stable.gif"></img>`);
+        $('#image').append(`<img border="10" style="width:300px; height:168px;" border-color: black;" src="Images/max-stable.gif"></img>`);
       }
 
       console.log(price);
