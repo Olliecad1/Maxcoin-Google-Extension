@@ -12,7 +12,8 @@ $(function () {
 
       // var dayChanges = 10;
 	  
-      $('#topbar').prepend(`Price: ${price} | Hourly: ${hourChanges}% | 24H: ${dayChanges}% | Weekly: ${weekChanges}%`);
+      $('#topbar').prepend(`Price: ${price} | Hourly: ${hourChanges}%`); 
+	  $('#bottombar').prepend(`24H: ${dayChanges}% | Weekly: ${weekChanges}%`);
 
       if (dayChanges > .50) {
         $('#image').append(`<img border="10" style="width:300px; height:168px; border-color:green;" src="Images/max-up.gif"></img>`);

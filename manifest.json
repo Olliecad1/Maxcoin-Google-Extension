@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "MAXCOIN",
+  "name": "HODL Maxcoin Ticker",
   "icons":
   {
      "128": "Images/icon.png",
@@ -9,7 +9,7 @@
      "48": "Images/icon.png"
   },
   "description": "A ticker that instantly without any confusion, tell you the market movement of maxcoin crpytocurrency",
-  "version": "1.0",
+  "version": "1.3",
 
   "browser_action": {
     "default_icon": "Images/icon.png",

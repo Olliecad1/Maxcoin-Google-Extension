@@ -3,11 +3,12 @@
 
 <head>
   <title>Maxcoin Price Movement</title>
+  <div style="width: 300px; height: 30px;"><a href="https://maxcoinproject.org"><img src="Images/maxcoinheader.gif"></img></a></div>
   <style type="text/css">
     body {
       margin: 2px;
       white-space: nowrap;
-    }
+    }	
 
     h1 {
       font-size: 15px;
@@ -16,26 +17,24 @@
     img {
       text-align: center;
     }
+	
     #topbar{
       width: 100%;
     }
+	
+    #bottombar{
+	 width:100%;
+	}
+	
     .marquee {
-      /* height: 500px;
-        width: 500px; */
+      height: 30px;
+      width: 300px; 
       overflow: hidden;
       position: relative;
       animation: marquee 10s linear infinite;
     }
 
-    @keyframes marquee {
-      0% {
-        left: 0;
-      }
-      95% {
-        left: 100%;
-      }
-    }
-
+ 
     #container {
       align-items: center;
       display: flex;
@@ -51,13 +50,14 @@
 
 <body id="#maxBody">
   <h1 class="marquee" id="topbar"></h1>
-  <h1 class="marquee" id="topbar"></h1>
+  <h1 class="marquee" id="bottombar"></h1>
 
   <div style="text-align:center" id="image">
 
 
   </div>
-  <p style="text-align:center" id="bottombar">Made by Ollie || powered by CoinMarketCapAPI</p>
-</body>
+  <p style="text-align:center" id="bottombar">Made by <a href="https://www.maxcoinproject.org/team/official-coder/" target="_blank">Ollie</a> || powered by CoinMarketCapAPI</p>
+  
+  </body>
 
 </html>
