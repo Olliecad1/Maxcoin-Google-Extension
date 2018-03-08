@@ -21,7 +21,7 @@ $(function () {
         $('#image').append(`<img src="Images/newkeiser.gif"></img>`);
       }
       else {
-        $('#image').append(`<img src="Images/max.gif"></img>`);
+        $('#image').append(`<img src="Images/max-down.gif"></img>`);
       }
 
       console.log(price);
