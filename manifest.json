@@ -8,7 +8,7 @@
      "16": "Images/icon.png",
      "48": "Images/icon.png"
   },
-  "description": "A ticker that instantly without any confusion, tell you the market movement of maxcoin crpytocurrency",
+  "description": "HODL Maxcoin is an easy to use MAX price ticker. Hourly, Daily & Weekly Price Movements in Fiat & real currencies such as Bitcoin.",
   "version": "1.3",
 
   "browser_action": {
