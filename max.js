@@ -13,7 +13,7 @@ $(function () {
 
       // var dayChanges = 10;
 
-      $('#topbar').prepend(`USD: ${price}`);
+      $('#topbar').prepend(`USD: ${price} `);
 	    $('#headerbar').prepend(`USD: Hourly: ${hourChanges}% | 24H: ${dayChanges}% | Weekly: ${weekChanges}%`);
       $('#newbar').prepend(`BTC: ${pricebtc}`)
 
