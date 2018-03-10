@@ -8,7 +8,7 @@ $(function () {
     success: function (data) {
       var price_eth = Number(data[0].price_eth).toFixed(8);
 
-      $('#newbar').prepend(`ETH: ${price_eth}`);
+      $('#newbar').prepend(`ETH: ${price_eth} | `);
 
       console.log(price);
     }

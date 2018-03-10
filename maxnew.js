@@ -9,7 +9,7 @@ $(function () {
       var price_gbp = Number(data[0].price_gbp).toFixed(3);
 
 
-      $('#topbar').prepend(`GBP: ${price_gbp}`);
+      $('#topbar').prepend(`GBP: ${price_gbp} | `);
 
       console.log(price);
     }

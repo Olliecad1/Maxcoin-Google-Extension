@@ -13,9 +13,9 @@ $(function () {
 
       // var dayChanges = 10;
 
-      $('#topbar').prepend(`USD: ${price} | `);
+      $('#topbar').prepend(`USD: ${price}`);
 	    $('#headerbar').prepend(`USD: Hourly: ${hourChanges}% | 24H: ${dayChanges}% | Weekly: ${weekChanges}%`);
-      $('#newbar').prepend(`BTC: ${pricebtc} | `)
+      $('#newbar').prepend(`BTC: ${pricebtc}`)
 
       if (dayChanges > .50) {
         $('#image').append(`<img border="2" style="width:300px; height:168px; border-color:green;" src="Images/max-up.gif"></img>`);
