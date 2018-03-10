@@ -6,12 +6,11 @@ $(function () {
     url: 'https://api.coinmarketcap.com/v1/ticker/maxcoin/?convert=GBP',
     dataType: 'json',
     success: function (data) {
-      var price = Number(data[0].price_gbp).toFixed(2);
+      var price_gbp = Number(data[0].price_gbp).toFixed(3);
 
-      // var dayChanges = 10;
-	  
-      $('#topbar').prepend(`Price: ${price} GBP | `); 
-	  
+
+      $('#topbar').prepend(`GBP: ${price_gbp}`);
+
       console.log(price);
     }
   });

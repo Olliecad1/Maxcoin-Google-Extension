@@ -4,6 +4,9 @@
 <head>
   <title>Maxcoin Price Movement</title>
   <div border="5" style="width: 300px; height: 30px;"><a href="https://maxcoinproject.org" target="_blank"><img src="Images/maxcoinheader.gif"></img></a></div>
+  <h1 class="marquee" id="headerbar" style="font-size: 11px;"></h1>
+
+
   <style type="text/css">
     body {
       margin: 2px;
@@ -22,8 +25,8 @@
       width: 100%;
     }
 
-    #bottombar{
-	 width:100%;
+    #newbar{
+	    width:100%;
 	}
 
     .marquee {
@@ -42,9 +45,11 @@
   </style>
 
 
+
   <script src="jquery-3.2.1.min.js"></script>
   <script src="max.js"></script>
   <script src="maxnew.js"></script>
+  <script src="ethmax.js"></script>
 </head>
 
   <hr>
@@ -55,8 +60,8 @@
   </div>
 
 <body id="#maxBody">
-  <h2>Fiat Prices: </h2><h1 class="marquee" id="topbar"></h1>
-  <h2>Real Prices: </h2><h1 class="marquee" id="bottombar"></h1>
+  <h1 class="marquee" id="topbar"></h1>
+  <h1 class="marquee" id="newbar"></h1>
 
   <hr>
 
