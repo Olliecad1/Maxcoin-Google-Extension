@@ -8,7 +8,6 @@ $(function () {
     success: function (data) {
       var price_eur = Number(data[0].price_eur).toFixed(3);
 
-
       $('#topbar').prepend(`EURO: ${price_eur} | `);
 
       console.log(price);
